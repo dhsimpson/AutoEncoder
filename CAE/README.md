@@ -38,3 +38,4 @@ Loss 값이 단조 감소하다가 local optima 부근에서 fitting 된 모습�
    
       
          
+-
