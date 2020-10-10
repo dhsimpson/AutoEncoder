@@ -28,7 +28,7 @@ Validation data (아래 6개 데이터로 고정한다.)
 
 100 Epoch 결과 Validation
 -
-Validation data와 똑같은 데이터를 복원해 내야 하며, 블러가 있지만 원본 숫자 이미지를 잘 복원했다.
+Validation data와 똑같은 데이터를 복원해 내야 하며, 블러가 있지만 원본 숫자 이미지를 잘 복원했다.(단, 3,5,8 숫자가 비슷하게 생겼기에 그 숫자들은 블러가 좀더 심하다)
 ![](./evaluate_100epoch.png)
 
 Loss 값 Graph
