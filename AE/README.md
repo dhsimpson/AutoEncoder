@@ -24,14 +24,14 @@
 
 Validation data (아래 6개 데이터로 고정한다.)
 -
-!(./validationdata.png)
+![](./validationdata.png)
 
 100 Epoch 결과 Validation
 -
-Validation data와 똑같은 데이터를 복원해 내야 하는데.... 그렇게 하지 못 한 모습이다.
-!(./evaluate_100epoch.png)
+Validation data와 똑같은 데이터를 복원해 내야 하는데.... 그렇게 하지 못 한 모습이다.   
+![](./evaluate_100epoch.png)
 
 Loss 값 Graph
 -
-Loss 값이 단조 감소하지 않고 심하게 요동친다.
-!(./loss.png)
+Loss 값이 단조 감소하지 않고 심하게 요동친다.   
+![](./loss.png)
