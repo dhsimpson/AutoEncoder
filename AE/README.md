@@ -32,8 +32,10 @@ Validation data (아래 6개 데이터로 고정한다.)
 ![](./10epoch.png)   
 20 epoch일 때의 결과이며, 10epoch 보다 블러가 확연히 줄어든 모습이다.
 ![](./20epoch.png)
+100 epoch일 때의 결과이며, 20epoch 과 크게 다르지 않다.(loss값이 0.02 줄었다고 validation data에 대해선 큰 성능 차이가 없다. 20epoch이 됐을 때 이미 fit 된 것이 아닐까 싶다.)
+![](./100epoch.png)
 
 Loss 값 Graph
 -
-Loss 값이 단조 감소하지 않고 심하게 요동친다.   
+학습 초반엔 감소 하다가 0.11부근에서 fit 되고, 학습 끝날 때 까지 진동하는 모습  
 ![](./loss.png)
