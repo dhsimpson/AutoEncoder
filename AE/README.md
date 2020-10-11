@@ -26,10 +26,12 @@ Validation data (아래 6개 데이터로 고정한다.)
 -
 ![](./validationdata.png)
 
-100 Epoch 결과 Validation
+10,20 Epoch 결과 Validation
 -
-Validation data와 똑같은 데이터를 복원해 내야 하는데.... 그렇게 하지 못 한 모습이다.   
-![](./evaluate_100epoch.png)
+10 epcoh일 때의 결과이며, 위의 validation data를 은근히 잘 복원해 내는 모습이다. 하지만 블러가 있는 모습
+![](..10epoch.png)   
+20 epoch일 때의 결과이며, 10epoch 보다 블러가 확연히 줄어든 모습이다.
+![](./20epoch.png)
 
 Loss 값 Graph
 -
